@@ -6,7 +6,7 @@ default allow = false
 allow if {
     input.action == "read"
     input.resource.classification == "CHD"
-    input.user.role == "Developer"
+    input.user.role == "PaymentProcessor"
 }
 
 # Deny with message if unauthorized
