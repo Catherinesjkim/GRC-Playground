@@ -1,0 +1,11 @@
+{
+  "user": {
+    "id": "u001",
+    "role": "PaymentProcessor"
+  },
+  "resource": {
+    "id": "txn-234",
+    "classification": "CHD"
+  },
+  "action": "read"
+}
